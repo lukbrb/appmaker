@@ -1,3 +1,4 @@
 # Pour les dossiers produits lors des tests
 *.app
 test
+*.mod
