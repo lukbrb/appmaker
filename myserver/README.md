@@ -21,8 +21,8 @@ python3 -m http.server <port> --bind <ip-address>
 ```
 
 Par défaut le serveur se lance dans le dossier 'Home'.
-À noter ici : si vous lancez le script via Windows, il faudra pour l'instant modifier la variable `commande` et écrire `python` au lieu de `python3`. De plus, il est posisble de changer le port si nécessaire. Le port 9999 est utilisé par défaut.
+À noter ici : si vous lancez le script via Windows, il faudra pour l'instant modifier la variable `commande` et écrire `python` au lieu de `python3`. De plus, il est possible de changer le port si nécessaire. Le port 9999 est utilisé par défaut.
 
-Une fois le script lancé, n'importe quel appareil se rendant dans un navigateur à l'adresse/url `http://<ip-address>:<PORT>` pourra accéder aux fichiers de l'ordinateur lançant ke script. Cela devrait ressembler à ceci :
+Une fois le script lancé, n'importe quel appareil se rendant dans un navigateur à l'adresse/url `http://<ip-address>:<PORT>` pourra accéder aux fichiers de l'ordinateur lançant le script. Cela devrait ressembler à ceci :
 
 ![Accès au dossier 'Home' via le serveur](exemple.png)
