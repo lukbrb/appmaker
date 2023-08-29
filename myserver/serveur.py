@@ -5,7 +5,7 @@ import subprocess
 import contextlib
 from pathlib import Path
 
-
+# TODO: argument --directory permet de choisir le dossier
 no_output = False
 @contextlib.contextmanager
 def working_directory(path):
